@@ -1,0 +1,69 @@
+{
+  "name": "i4-openlayers-react",
+  "version": "0.1.2",
+  "license": "MIT",
+  "author": "Mason Smith",
+  "main": "dist/index.js",
+  "module": "dist/i4-openlayers-react.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --env=jsdom",
+    "lint": "tsdx lint"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.17.0",
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tsdx": "^0.11.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.3",
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "babel-plugin-react-remove-properties": "^0.3.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "^3.4.3",
+    "jest-enzyme": "^7.1.2",
+    "jest-extended": "^0.11.2",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "ts-jest": "^24.2.0"
+  },
+  "dependencies": {
+    "@types/ol": "^5.3.6",
+    "moment": "^2.24.0",
+    "ol": "^6.1.1",
+    "react-jss": "^10.0.0"
+  }
+}
